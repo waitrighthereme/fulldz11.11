@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <form action="#" method="POST">
+        <label for="user_name">Введите ваше имя:</label><br>
+        <input type="text" name="username" id="user_name" placeholder="Введите ваше имя."><br>
+        <label for="email">Введите вашу электронную почту:</label><br>
+        <input type="email" name="user_email" id="email" placeholder="Введите вашу почту."><br>
+        <label for="password">Введите ваше имя:</label><br>
+        <input type="password" name="password" id="password" placeholder="Введите пароль."><br>
+        <label for="place">Введите страну проживания:</label><br>
+        <select name="coutry" id="place">
+            <option value="rus">Российская Федерация</option>
+            <option value="kz">Казахстан</option>
+            <option value="bel">Республика Беларусь</option>
+        </select><br>
+        <label for="message">Для дополнительной иноформации:</label><br>
+        <textarea name="message" id="message" rows="4" cols="50" placeholder="Введите ваше сообщение."></textarea><br>
+        <input type="checkbox" value="yes">Я согласен получать рассылку.<br>
+        <label for="user_gender">Выберите ваш пол:</label><br>
+        <input type="radio" name="gender" value="male">Мужской
+        <input type="radio" name="gender" value="female">Женский<br>
+
+        <input type="submit" value="Отправить данные">
+        <input type="button" value="Очистить форму">
+    </form><br>
+    <a href="index.html">Назад</a>
+
+</body>
+</html>
